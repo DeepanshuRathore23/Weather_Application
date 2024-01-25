@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url("https://media.istockphoto.com/id/1007768414/photo/blue-sky-with-bright-sun-and-clouds.webp?b=1&s=170667a&w=0&k=20&c=rHd7W8nOPEdKEnuMgpSnfC2OC9B_rwMe1HS7k_d-ORc=");     
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;      
+    
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#search input{
+    font-size: 20px;
+    height: 6vh;
+    width: 30vw;    
+    border-radius: 15px;    
+    padding-left: 5px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#search button{
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#search button:hover{
+    background-color: grey;
+}
+
+#search button i {
+font-size: 2vw;
+
+}
+
+
+
+#city{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 5vw;
+}
+
+#weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    
+}
+
+#weather img{
+    height: 59px;
+    display: flex;  
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#time{
+    height: 20vh;
+    width: 40vh;
+    background-color: white;
+    color: rgb(39, 38, 38);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+    border-radius: 20px;
+    
+}
+
+@media screen and (max-width:541px) {
+    #search input{
+        font-size: 15px;
+        width: 150px;
+    }
+    #search button i {
+        font-size: 20px;
+        
+    }
+    #city{        
+        font-size: 10vh;
+    }
+
+    #weather{
+        font-size: 10vh;
+    }
+
+    #time #t1 p{
+        font-size: 10vw;
+    }
+    
+}
+
+
